@@ -4,7 +4,8 @@
 * Wireshark
 * Python
 
-## Mininet Custom Topology
+## Mininet Topology
+* Simple custom topology setting
 
 ## OpenVSwitch basic switch codes
 * Learning switch
