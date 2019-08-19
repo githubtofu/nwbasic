@@ -30,7 +30,10 @@
 * Ping
 * Network error messages
 
-## Multicast & IGMP/IGMP Snooping
+## Multicast
+* Addressing
+* IGMP
+* IGMP Snooping
 
 ## Basic Routing
 
@@ -39,10 +42,17 @@
 ## TCP / UDP packets
 
 ## HTTP
+* Protocol
+* Caching
+* Cookie
 
-## HTTPS / TLS / PKI
+## HTTPS
+* TLS
+* PKI
 
 ## NAT
+* Port Forwarding
+* NAT traversal
 
 ## Proxy
 * HTTP Proxy
