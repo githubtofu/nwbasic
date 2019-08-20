@@ -23,7 +23,20 @@
   * `brctl addif br0 h1-eth0.100 h1-eth1.100`
 10. Set IP addresses on interfaces as needed. For example,
   * `ip addr add 10.0.0.10/24 dev br0`
-11. Switch on bridge interfaces. For example,
+  * A recommended setting is at the bottom of this file
+11. Switch on bridge and vlan interfaces. For example,
   * `ip link set dev br0 up`
 12. (Optional) Run wireshark on background on each host.
 13. Test connections
+
+## Recommended Setting ##
+### physical ###
+* host2 - switch1 - host1 - switch2 - host3
+### VLANs ###
+* host2 - (VLAN 100) - host1 - (VLAN 100, 101) - host3
+### Bridge Interface ###
+* host1 : br0 bridging h1-eth0.100 and h1-eth1.100
+### IPs ###
+* host2 : 10.0.0.12/24 on h2-eth0.100
+* host1 : 10.0.0.10/24 on br0, 10.0.1.10/24 on h1-eth0.101
+* host3 : 10.0.0.13/24 on h3-eth0.100, 10.0.1.13/24 on h3-eth0.101
