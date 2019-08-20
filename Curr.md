@@ -14,7 +14,10 @@
 * with ARP
 * with static setting
 
-## Packet viewing
+## Packet Analysis
+* packet generation
+* wireshark
+* packet filter (pcap)
 
 ## IP Configuration
 * Manual
