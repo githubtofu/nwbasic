@@ -39,5 +39,5 @@
 * host1 : br0 bridging h1-eth0.100 and h1-eth1.100
 ### IPs ###
 * host2 : 10.0.0.12/24 on h2-eth0.100
-* host1 : 10.0.0.10/24 on br0, 10.0.1.10/24 on h1-eth0.101
+* host1 : 10.0.0.10/24 on br0, 10.0.1.10/24 on h1-eth1.101
 * host3 : 10.0.0.13/24 on h3-eth0.100, 10.0.1.13/24 on h3-eth0.101
