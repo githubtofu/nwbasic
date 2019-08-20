@@ -37,6 +37,7 @@
 * IGMP Snooping
 
 ## Basic Routing
+* Routing table
 
 ## DNS
 
@@ -51,17 +52,19 @@
 * TLS
 * PKI
 
-## NAT
-* Port Forwarding
-* NAT traversal
-
-## Proxy
-* HTTP Proxy
-* SOCKS Proxy
-
 ## AVB / TSN
 * overview
 
 ## Raw socket
+
+## NAT
+* Port Forwarding
+* NAT traversal
+
+## Firewall
+
+## Proxy
+* HTTP Proxy
+* SOCKS Proxy
 
 ## Netfilter
