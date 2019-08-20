@@ -1,6 +1,6 @@
 # What to do
 ## Environment
-* Mininet : [Homepage](http://mininet.org/)
+* Mininet : [Homepage](http://mininet.org/) [Setting] (mininet_setting.md)
 * Wireshark
 * Python
 * Virtual Environment
