@@ -41,7 +41,9 @@
 
 ## DNS
 
-## TCP / UDP packets
+## TCP / UDP
+* packets
+* TCP algorithms
 
 ## HTTP
 * Protocol
