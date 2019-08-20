@@ -7,15 +7,15 @@ class MyTopo( Topo ):
         
         Topo.__init__( self )
 
-        lhost = self.addHost( 'h1' )
-        rhost = self.addHost( 'h2' )
-        ahost = self.addHost( 'h3' )
+        chost = self.addHost( 'h1' )
+        lhost = self.addHost( 'h2' )
+        rhost = self.addHost( 'h3' )
         lswitch = self.addSwitch( 's3' )
         rswitch = self.addSwitch( 's4' )
 
         self.addLink( lhost, lswitch )
-        self.addLink( lhost, rswitch )
+        self.addLink( chost, lswitch )
+        self.addLink( chost, rswitch )
         self.addLink( rhost, rswitch )
-        self.addLink( ahost, lswitch )
 
 topos = { 'mytopo' : ( lambda: MyTopo() ) }
