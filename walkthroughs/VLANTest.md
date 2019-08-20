@@ -19,7 +19,7 @@
   * `ip addr flush dev h1-eth0`
 8. Add VLANs as needed. For example, to add a VLAN (with ID 100) on h1-eth0 interface,
   * `vconfig add h1-eth0 100`
-9. Add bridges as needed. For example,
+9. Add bridges as needed. Add interfaces to created bridges as needed. For example,
   * `brctl addbr br0`
   * `brctl addif br0 h1-eth0.100 h1-eth1.100`
 10. Set IP addresses on interfaces as needed. For example,
