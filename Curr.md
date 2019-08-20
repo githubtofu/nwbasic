@@ -3,6 +3,7 @@
 * Mininet : [Homepage](http://mininet.org/)
 * Wireshark
 * Python
+* Virtual Environment
 
 ## Mininet Topology
 * Simple custom topology setting
