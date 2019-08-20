@@ -8,7 +8,7 @@
   * see an example at conf directory : [Simple Topology](https://github.com/githubtofu/nwbasic/blob/master/conf/simple_topo.py)
   * add at least three hosts and two switches (for example) to form (host2 - switch1 - host1 - switch2 - host3)
   * save the topology python file as (for example) 'simple.py'
-3. Define Switch Operation
+3. Define Switch Operation (Learning switch in this example)
   * save the switch code as (for example) 'switch.py'. The code is in the conf directory : [Code](https://github.com/githubtofu/nwbasic/blob/master/conf/learning_sw.py)
 4. Run Ryu Controller
   * `ryu-manager ./switch.py ryu.app.ofctl_rest`
