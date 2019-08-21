@@ -14,7 +14,7 @@
   * `ryu-manager ./switch.py ryu.app.ofctl_rest`
 5. Run Mininet on a separate terminal
   * `sudo mn --custom ./simple.py --topo mytopo --mac --switch ovsk --controller remote -x`
-6. (Optional) On each host, check interfaces with `ifconfig`
+6. On each host, check interfaces with `ifconfig` and note interface names.
 7. Clear IP addresses on all interfaces on all hosts. For example, to clear the IP address on h1-eth0 interface,
   * `ip addr flush dev h1-eth0`
 8. Add VLANs as needed. For example, to add a VLAN (with ID 100) on h1-eth0 interface,
