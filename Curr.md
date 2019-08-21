@@ -26,7 +26,7 @@
 * AutoIP
 
 ## VLAN & Aliasing
-* [Simple Walkthrough](../walkthroughs/VLANTest.md)
+* [Simple Walkthrough](walkthroughs/VLANTest.md)
 * Host Network Interfaces
 * Switching
 * 802.1Q packet
