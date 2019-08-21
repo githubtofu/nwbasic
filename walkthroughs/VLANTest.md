@@ -1,5 +1,5 @@
 ## Walkthrough ##
-1. Install Mininet, Ryu Controller, VLAN and Bridge contol as needed
+1. Install Mininet, Ryu Controller, VLAN and Bridge contol as needed. Installing packages is the easiest way.
   *  [Mininet](http://mininet.org/download/)
   *  [Ryu Controller](https://ryu.readthedocs.io/en/latest/getting_started.html)
   * `sudo apt-get install vlan`
