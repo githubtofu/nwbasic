@@ -28,6 +28,7 @@
 ## VLAN & Aliasing
 * Host Network Interfaces
 * Switching
+* 802.1Q packet
 
 ## ACL
 
@@ -39,6 +40,7 @@
 * Addressing
 * IGMP
 * IGMP Snooping
+* Multicast Socket
 
 ## Basic Routing
 * Routing table
@@ -48,6 +50,7 @@
 ## TCP / UDP
 * packets
 * TCP algorithms
+* Socket communication
 
 ## HTTP
 * Protocol
