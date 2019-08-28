@@ -83,4 +83,4 @@
 
 ## Further Topics
 * VPN
-* [SDP](https://en.wikipedia.org/wiki/Session_Description_Protocol)
+* [SDP](https://en.wikipedia.org/wiki/Software_Defined_Perimeter)
