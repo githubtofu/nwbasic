@@ -42,7 +42,7 @@
 ## Multicast
 * Addressing
 * IGMP
-* IGMP Snooping
+* [IGMP Snooping](walkthroughs/simple_igmp_snooping.md)
 * Multicast Socket
 
 ## Basic Routing
