@@ -1,9 +1,10 @@
 ## Walkthrough ##
-1. Install Mininet, Ryu Controller, VLAN and Bridge contol as needed. Installing from packages is the easiest way.
+1. Install Mininet, Ryu Controller, xterm, VLAN and Bridge contol as needed. Installing from packages is the easiest way.
   *  [Mininet](http://mininet.org/download/)
   * `pip install ryu` (  [Ryu Controller](https://ryu.readthedocs.io/en/latest/getting_started.html) )
   * `sudo apt-get install vlan`
   * `sudo apt-get install bridge-utils`
+  * `sudo apt-get install xterm`
 2. Define Topology
   * see an example at conf directory : [Simple Topology](https://github.com/githubtofu/nwbasic/blob/master/conf/simple_topo.py)
   * add at least three hosts and two switches (for example) to form (host2 - switch1 - host1 - switch2 - host3)
