@@ -9,7 +9,7 @@ subscriber -DCPSConfigFile dds_sub_test.ini
 
 publisher -DCPSConfigFile dds_pub_test.ini
 
-======================dds_sub_test.ini==================
+======================dds_sub_test.ini when using repository==================
 
 # This "common" section configures the data in Service_Participant. 
 [common]
@@ -38,7 +38,7 @@ transport_type=tcp
 local_address=10.0.0.15:
 
 
-=======================rtps_sub.ini=================
+=======================rtps_sub.ini when using rpts=================
 [common]
 #DPCSGlobalTransportConfig=$file
 DCPSDefaultDiscovery=TheRTPSConfig
