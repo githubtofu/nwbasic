@@ -1,6 +1,6 @@
 ## Run Containers
- * `$ docker run -t -i --name container1 ubuntu /bin/bash`
- * `$ docker run -t -i --name container2 ubuntu /bin/bash`
+ * `$ docker run -t --network none -i --name container1 ubuntu /bin/bash`
+ * `$ docker run -t --network none -i --name container2 ubuntu /bin/bash`
 
 ## Create switch bridge and create ports
 * `$ ovs-vsctl add-br ovs-br1`
