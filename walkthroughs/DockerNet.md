@@ -21,6 +21,9 @@
 * `newgrp docker`
 * `docker run hello-world`
 
+## (run sudo with passwords)
+* `echo <password> | sudo -S <command>`
+
 ===
 
 ## VLAN & Aliasing
