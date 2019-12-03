@@ -15,6 +15,12 @@
 ## (install ping)
 * `docker exec -it container1 apt-get install iputils-ping`
 
+## (run without sudo)
+* `sudo groupadd docker`
+* `sudo gpasswd -a $USER docker`
+* `newgrp docker`
+* `docker run hello-world`
+
 ===
 
 ## VLAN & Aliasing
