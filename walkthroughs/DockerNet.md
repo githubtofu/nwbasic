@@ -12,7 +12,8 @@
 
 ## Analyzer Test
 
-
+## (install ping)
+* `docker exec -it container1 apt-get install iputils-ping`
 ===
 
 ## VLAN & Aliasing
