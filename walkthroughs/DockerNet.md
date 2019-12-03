@@ -27,6 +27,9 @@
 ## (run sudo with passwords)
 * `echo <password> | sudo -S <command>`
 
+## rate limiting
+* http://docs.openvswitch.org/en/latest/howto/qos/
+
 ===
 
 ## VLAN & Aliasing
