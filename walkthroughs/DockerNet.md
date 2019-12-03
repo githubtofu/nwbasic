@@ -5,8 +5,8 @@
 ## Create switch bridge and create ports
 * `$ ovs-vsctl add-br ovs-br1`
 * `$ ifconfig ovs-br1 173.16.1.1 netmask 255.255.255.0 up`
-* `$ ovs-docker add-port ovs-br1 eth1 container1 --ipaddress=173.16.1.2/24`
-* `$ ovs-docker add-port ovs-br1 eth1 container2 --ipaddress=173.16.1.3/24`
+* `$ ovs-docker add-port ovs-br1 eth1 container1 --ipaddress=173.16.1.2/24 --gateway=173.16.1.1`
+* `$ ovs-docker add-port ovs-br1 eth1 container2 --ipaddress=173.16.1.3/24 --gateway=173.16.1.1`
 
 ## Provider / Subscriber Test
 
