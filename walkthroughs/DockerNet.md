@@ -15,6 +15,13 @@
 
 ## Analyzer Test
 
+## some n/w setups
+* `ip route del default`
+* `ip route add default gw 192.168.11.1`
+* `ip link del docker0`
+* `ovs-vsctl del-br ovs-br1`
+* `ifconfig eno1 down` && `dhclient eno1`
+
 ## (install ping)
 * `docker exec -it container1 apt-get install iputils-ping`
 
