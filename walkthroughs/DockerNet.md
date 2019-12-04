@@ -17,7 +17,7 @@
 
 ## some n/w setups
 * `ip route del default`
-* `ip route add default gw 192.168.11.1` OR `ip route add default via 192.168.11.1 dev eth1`
+* `ip route add default gw 192.168.11.1` OR `ip route add default via 192.168.11.1 dev eth1` (https://serverfault.com/questions/123553/how-to-set-the-preferred-network-interface-in-linux)
 * `ip link del docker0`
 * `ovs-vsctl del-br ovs-br1`
 * `ifconfig eno1 down` && `dhclient eno1`
