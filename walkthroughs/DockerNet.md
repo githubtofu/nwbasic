@@ -15,6 +15,10 @@
 
 ## Analyzer Test
 
+## controller setting
+* `ovs-appctl bridge/dump-flows ovs-br1`
+* `ovs-ofctl dump-ports-desc ovs-br1` `
+
 ## some n/w setups
 * `ip route del default`
 * `ip route add default gw 192.168.11.1` OR `ip route add default via 192.168.11.1 dev eth1` (https://serverfault.com/questions/123553/how-to-set-the-preferred-network-interface-in-linux)
