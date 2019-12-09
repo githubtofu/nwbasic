@@ -17,7 +17,8 @@
 
 ## controller setting
 * `ovs-appctl bridge/dump-flows ovs-br1`
-* `ovs-ofctl dump-ports-desc ovs-br1` `
+* `ovs-ofctl dump-ports-desc ovs-br1`
+* `ovs-ofctl add-flow ovs-br1 in_port=2,actions=1,LOCAL`
 
 ## some n/w setups
 * `ip route del default`
