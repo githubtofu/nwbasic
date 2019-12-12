@@ -42,6 +42,12 @@
 ## rate limiting
 * http://docs.openvswitch.org/en/latest/howto/qos/
 
+## Ref
+* http://www.openvswitch.org/support/dist-docs/ovs-ofctl.8.txt
+* http://www.openvswitch.org/support/dist-docs/ovs-actions.7.txt
+* Using OpenFlow : http://docs.openvswitch.org/en/latest/faq/openflow/
+
+
 ===
 
 ## VLAN & Aliasing
