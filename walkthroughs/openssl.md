@@ -8,5 +8,5 @@ aes-cbc-128
 
 compiling
 
-* https://stackoverflow.com/questions/3368683/how-to-compile-c-file-with-openssl-includes
+* https://stackoverflow.com/questions/3368683/how-to-compile-c-file-with-openssl-includes (gcc -o Opentest Opentest.c -lcrypto)
 
