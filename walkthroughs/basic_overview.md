@@ -51,3 +51,14 @@ Now ping succeeds. First, ARP request is sent from host 1 by broadcast as before
 to host 1 since host 2 now has IP address and has to respond to ARP request for that IP address. 
 
 
+## Communication with a remote host ##
+
+Exit mininet using `exit`
+
+Start mininet using `sudo mn --topo single,3 --mac --controller remote --switch ovsk -x --nat`
+
+Run wireshark on host 1
+
+Try ping from host 1 using `ping www.airplug.com`
+
+(If dns is not working add dns server using [Adding DNS server](add_dns.md))
