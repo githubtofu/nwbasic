@@ -5,4 +5,6 @@
  
 2. Run ryu controller : `ryu-manager --verbose ryu/app/simple_switch_13.py`
 
-3. Run mininet 2ith 3 hosts: `sudo mn --topo single,3 --mac --controller remote --switch ovsk -x`
+3. Run mininet with 3 hosts: `sudo mn --topo single,3 --mac --controller remote --switch ovsk -x`
+
+4. Run wireshark
