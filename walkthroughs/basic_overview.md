@@ -107,3 +107,5 @@ Run a TCP server on host 2 using [server program](../snippets/basic/tcp_server.p
 Note 3-way handshake on wireshark
 
 Examine the TCP packet containing the message on wireshark
+
+Check what packets are exchanged when the socket is closed.
