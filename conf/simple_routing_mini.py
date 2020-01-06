@@ -1,19 +1,13 @@
-from mininet.net import Mininet
-from mininet.node import Controller, RemoteController
-from mininet.link import TCLink
-from mininet.cli import CLI
-from mininet.log import setLogLevel, info
-from subprocess import call
-import time, os
+from mininet.topo import Topo
 
-net = Mininet(controller=None, link=TCLink, autoSetMacs=True)
-print "***Creating nodes..."
-h1 = net.addHost('h1')
-h2 = net.addHost('h2')
-h3 = net.addHost('h3')
-print "***Creating links..."
-net.addLink(h1, h2)
-net.addLink(h2, h3)
-net.start()
-CLI(net)
-net.stop()
+class MyTopo (Topo):
+    def __init__(self):
+        Topo.__init__(self)
+
+        ahost = self.addHost('h1')
+        rhost = self.addHost('h2')
+        bhost = self.addHost('h3')
+
+        self.addLink(ahost, rhost)
+        self.addLink(rhost, bhost)
+topos = { 'mytopo' : (lambda: MyTopo() )}
