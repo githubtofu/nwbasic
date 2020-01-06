@@ -90,7 +90,7 @@ Check ARP, DNS, ICMP packets on wireshark.
 
 Run mininet as before
 
-Send UDP packets using [client](../udp_echo_client.py) on host 1 and [server](../udp_echo_server.py) on host 2
+Send UDP packets using [client program](../snippets/basic/udp_echo_client.py) on host 1 and [server program](../snippets/basic/udp_echo_server.py) on host 2
 
 Check packets on wireshark
 
