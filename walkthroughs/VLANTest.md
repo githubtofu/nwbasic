@@ -1,7 +1,7 @@
 ## Walkthrough ##
 1. Install Mininet, Ryu Controller, xterm, VLAN and Bridge contol as needed. Installing from packages is the easiest way.
   * `sudo apt-get install mininet` [Mininet](http://mininet.org/download/)
-  * `pip install ryu` (  [Ryu Controller](https://ryu.readthedocs.io/en/latest/getting_started.html) )
+  * `pip install ryu` and `sudo apt install python3-ryu` (  [Ryu Controller](https://ryu.readthedocs.io/en/latest/getting_started.html) )
   * `sudo apt-get install vlan`
   * `sudo apt-get install bridge-utils`
   * `sudo apt-get install xterm`
