@@ -8,6 +8,10 @@
 ## Basic Networking Overview
 * [basic packet tx and rx](walkthroughs/basic_overview.md)
 
+## Basic Routing
+* [Basic routing setup and source routing](walkthroughs/basic_routing.md)
+* IGNORE: ~~Example : [Asymmetric Routing](walkthroughs/routing/asymmetric)~~
+
 ## Virtual Network Topology
 * Simple custom topology setting
 * [Docker Example Network](walkthroughs/DockerNet.md)
@@ -49,9 +53,7 @@
 * [IGMP Snooping](walkthroughs/simple_igmp_snooping.md)
 * Multicast Socket
 
-## Basic Routing
-* Routing table
-* Example : [Asymmetric Routing](walkthroughs/routing/asymmetric)
+
 
 ## DNS
 
