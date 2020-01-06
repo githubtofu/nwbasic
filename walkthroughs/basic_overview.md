@@ -9,7 +9,7 @@ Host 1 -- Switch -- Host 2
 ```
 
 ## How packets are sent on LAN ##
-=== communication on LAN ===
+### communication on LAN ###
 For communication over Ethernet, hosts need IP addresses and MAC addresses.
 Check the interface name (other than local loop back interface) and addresses of a host with `ifconfig`
     Host 1's Interface name :
