@@ -98,5 +98,9 @@ Send UDP packets from host 1 to an unused port and check ICMP messages on wiresh
 
 ## TCP send ##
 
-Send a TCP packet from host 1 using 
+Send a TCP packet from host 1 using [client program](../snippets/basic/tcp_client.py)
+
+Note syn packet on wiresharks on host 1 and host 2
+
+Run a TCP server on host 2 using [server program](../snippets/basic/tcp_server.py) and send a TCP packet from host 1 to host 2
 
