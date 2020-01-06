@@ -19,6 +19,8 @@ Check the interface name (other than local loop back interface) and addresses of
 * Host 2's IP address :
 * Host 2's MAC address :
 
+(Learn about IP address and MAC address using wikipedia)
+
 Let's remove IP addresses using `ip addr flush dev <<Interface name>>` on all the hosts.
 
 Try ping from host 1 to host 2 using a random IP address.
@@ -41,7 +43,7 @@ Try ping from host 1 using `ping 10.0.1.0`
 
 This time we get 'Network unreachable` error instead of 'Host unreachable` since 10.0.1.0 is on a different network.
 This is because we set the IP address using 10.0.0.1/24 and the interface can send packet directly only to IP addresses in the range
-10.0.0.1 ~ 10.0.0.255 because of the network prefix '24'.
+10.0.0.1 ~ 10.0.0.255 because the network prefix length is 24. (Learn about network prefix length https://datapath.io/resources/blog/what-are-network-prefixes/ and subnet mask)
 
 Let's set an IP address on host 2 using `ip addr add 10.0.0.2/24 dev <<Interface name on host 2>>`
 
