@@ -82,4 +82,4 @@ It can only send a packet to a host in its own network (10.0.0.1 ~ 10.0.0.255). 
 
 7. ping response is routed to 10.0.0.1 (host 1) via NAT
 
-Check ARP, DNS, ICMP packets.
+Check ARP, DNS, ICMP packets on wireshark.
