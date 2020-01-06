@@ -12,12 +12,12 @@ Host 1 -- Switch -- Host 2
 
 For communication over Ethernet, hosts need IP addresses and MAC addresses.
 Check the interface name (other than local loop back interface) and addresses of a host with `ifconfig`
-    * Host 1's Interface name :
-    * Host 1's IP address :
-    * Host 1's MAC address :
-    * Host 2's Interface name :
-    * Host 2's IP address :
-    * Host 2's MAC address :
+* Host 1's Interface name :
+* Host 1's IP address :
+* Host 1's MAC address :
+* Host 2's Interface name :
+* Host 2's IP address :
+* Host 2's MAC address :
 
 Let's remove IP addresses using `ip addr flush dev <<Interface name>>` on all the hosts.
 
