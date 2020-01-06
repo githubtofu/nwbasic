@@ -62,3 +62,24 @@ Run wireshark on host 1
 Try ping from host 1 using `ping www.airplug.com`
 
 (If dns is not working add dns server using [Adding DNS server](add_dns.md))
+
+Check packets on wireshark. Remember that host 1 can't send a packet directlry to a remote host.
+It can only send a packet to a host in its own network (10.0.0.1 ~ 10.0.0.255). The packet is sent to www.airplug.com using the following steps.
+
+(host 1 needs to know the IP address corresponding to www.airplug.com. It sends out DNS queries to the DNS server (for example, 8.8.4.4) but it can't send the query directlry to 8.8.4.4 since it is on a remote network. It should send the query to a host on its own network which is connected to the Internet via another interface. In our case that host is NAT.)
+
+1. host 1 sends ARP queries for 10.0.0.4 (NAT) and gets a response saying the MAC address of 10.0.0.4 is 00:00:00:00:00:04
+
+2. host 1 sends DNS query destined to 8.8.4.4 to 00:00:00:00:00:04(NAT)
+
+3. the DNS query is sent outward via NAT
+
+4. the DNS response from 8.8.4.4 is routed to 10.0.0.1 (host 1) via NAT
+
+5. host 1 sends ping destined to IP address of www.airplug.com to NAT
+
+6. ping is sent outward by NAT
+
+7. ping response is routed to 10.0.0.1 (host 1) via NAT
+
+Check ARP, DNS, ICMP packets.
