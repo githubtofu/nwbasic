@@ -7,4 +7,4 @@
 
 3. Run mininet with 3 hosts: `sudo mn --topo single,3 --mac --controller remote --switch ovsk -x`
 
-4. Run wireshark
+4. Run wireshark on all hosts
