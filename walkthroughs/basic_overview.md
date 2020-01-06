@@ -85,3 +85,18 @@ It can only send a packet to a host in its own network (10.0.0.1 ~ 10.0.0.255). 
 7. ping response is routed to 10.0.0.1 (host 1) via NAT
 
 Check ARP, DNS, ICMP packets on wireshark.
+
+## UDP send/receive ##
+
+Run mininet as before
+
+Send UDP packets using [client](../udp_echo_client.py) on host 1 and [server](../udp_echo_server.py) on host 2
+
+Check packets on wireshark
+
+Send UDP packets from host 1 to an unused port and check ICMP messages on wireshark
+
+## TCP send ##
+
+Send a TCP packet from host 1 using 
+
