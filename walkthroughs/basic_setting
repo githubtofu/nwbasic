@@ -3,7 +3,7 @@
   * `pip install ryu` (  [Ryu Controller](https://ryu.readthedocs.io/en/latest/getting_started.html) )
   * `sudo apt-get install xterm`
  
-2. Run ryu controller : `ryu-manager --verbose ryu/app/simple_switch_13.py`
+2. Run ryu controller : `ryu-manager --verbose ./simple_switch_13.py` (
 
 3. Run mininet with 3 hosts: `sudo mn --topo single,3 --mac --controller remote --switch ovsk -x`
 
