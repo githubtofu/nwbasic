@@ -6,7 +6,7 @@
 * Virtual Environment
 
 ## Basic Networking Overview
-* [Getting a page from the Internet](walkthroughs/basic_overview.md)
+* [basic packet tx and rx](walkthroughs/basic_overview.md)
 
 ## Virtual Network Topology
 * Simple custom topology setting
