@@ -5,9 +5,12 @@ class MyTopo (Topo):
         Topo.__init__(self)
 
         ahost = self.addHost('h1')
-        rhost = self.addHost('h2')
-        bhost = self.addHost('h3')
+        rhosta = self.addHost('h2')
+        rhostb = self.addHost('h3')
+        bhost = self.addHost('h4')
 
-        self.addLink(ahost, rhost)
-        self.addLink(rhost, bhost)
+        self.addLink(ahost, rhosta)
+        self.addLink(rhosta, rhostb)
+        self.addLink(rhostb, bhost)
+        
 topos = { 'mytopo' : (lambda: MyTopo() )}
