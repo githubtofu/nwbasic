@@ -1,6 +1,6 @@
 ## Topology ##
 ```
-host 1(10.0.1.1/24) -- (10.0.1.2/24) host 2 (10.0.2.1/24) -- (10.0.2.2/24) host 3 (10.0.3.1/24) -- (10.0.3.2/24) host 4
+h1(10.0.1.1/24) -- (10.0.1.2/24) h2 (10.0.2.1/24) -- (10.0.2.2/24) h3 (10.0.3.1/24) -- (10.0.3.2/24) h4
 ```
 host 1 and host 3 will be on different networks. host 2 and host 4 will be on different networks. host 2 will be on two networks and can route ip packets between host 1 and host 3. host 3 will be on two network and can route ip packets between host 2 and host 4. To route packets from host 1 to host 4, proper routing paths should be set up on host 2 and host 3.
 
