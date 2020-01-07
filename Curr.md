@@ -12,6 +12,9 @@
 * [Basic routing setup and source routing](walkthroughs/basic_routing.md)
 * IGNORE: ~~Example : [Asymmetric Routing](walkthroughs/routing/asymmetric)~~
 
+## Basic Switch Setup
+* [Basic Switch Setup](walkthroughs/basic_switching.md)
+
 ## Virtual Network Topology
 * Simple custom topology setting
 * [Docker Example Network](walkthroughs/DockerNet.md)
