@@ -21,6 +21,12 @@
 * Switching
 * 802.1Q packet
 
+## Multicast
+* Addressing
+* IGMP
+* [IGMP Snooping](walkthroughs/simple_igmp_snooping.md)
+* Multicast Socket
+
 ## Virtual Network Topology
 * Simple custom topology setting
 * [Docker Example Network](walkthroughs/DockerNet.md)
@@ -50,11 +56,7 @@
 * Ping
 * Network error messages
 
-## Multicast
-* Addressing
-* IGMP
-* [IGMP Snooping](walkthroughs/simple_igmp_snooping.md)
-* Multicast Socket
+
 
 
 
