@@ -9,7 +9,7 @@
   * `ryu-manager ./simple13_igmp_added.py ryu.app.ofctl_rest`
 3. test igmp join and multicast messages
 
-ryu controller source
+use [ryu controller source](../snippets/switch/snooping.py)
 
 ```
 from ryu.base import app_manager
