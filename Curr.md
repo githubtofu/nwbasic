@@ -3,7 +3,7 @@
 * Mininet : [Homepage](http://mininet.org/) [Setting](mininet_setting.md)
 * Wireshark
 * Python
-* Virtual Environment
+* ~~Virtual Environment~~
 
 ## Basic Networking Overview
 * [basic packet tx and rx](walkthroughs/basic_overview.md)
