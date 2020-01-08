@@ -48,17 +48,11 @@
 * DHCP
 * AutoIP
 
-## Virtual Machine and Container Networking
-
 ## ACL
 
 ## ICMP
 * Ping
 * Network error messages
-
-
-
-
 
 ## DNS
 
