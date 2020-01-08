@@ -32,6 +32,18 @@ Ping from host 1 to host 2 and check corresponding packets on wireshark
 
 ## multicast switching ##
 
-Add default gateway 
+Add default gateway on host 1 (see [basic routing](basic_routing.md) for the command)
+
+On mininet terminal, delete all flows
+
+On mininet terminal, add a multicast flow : `dpctl add-flow dl_dst=01:00:5e:01:01:01,action=2,4,6,8,10`
+
+run wireshark on host 1 and 2 and 3 and 4
+
+Ping from host 1 to 239.1.1.1
+
+check corresponding packets on host 1, 2, 4
+
+note no packet coming in for host 3
 
 
