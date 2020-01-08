@@ -6,7 +6,7 @@
   * `sudo apt-get install xterm`
 2. run ryu-controller and mininet
   * `sudo -E mn --topo single,16 --nat --mac --switch ovsk --controller remote -x`
-  * `ryu-manager ./simple13_igmp_added.py ryu.app.ofctl_rest`
+  * `ryu-manager ./snooping.py ryu.app.ofctl_rest`
 3. test igmp join and multicast messages
 
 use [ryu controller source](../snippets/switch/snooping.py)
