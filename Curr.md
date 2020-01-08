@@ -15,6 +15,12 @@
 ## Basic Switch Setup
 * [Basic Switch Setup](walkthroughs/basic_switching.md)
 
+## VLAN & Aliasing
+* [Simple Walkthrough](walkthroughs/VLANTest.md)
+* Host Network Interfaces
+* Switching
+* 802.1Q packet
+
 ## Virtual Network Topology
 * Simple custom topology setting
 * [Docker Example Network](walkthroughs/DockerNet.md)
@@ -35,12 +41,6 @@
 * Manual
 * DHCP
 * AutoIP
-
-## VLAN & Aliasing
-* [Simple Walkthrough](walkthroughs/VLANTest.md)
-* Host Network Interfaces
-* Switching
-* 802.1Q packet
 
 ## Virtual Machine and Container Networking
 
