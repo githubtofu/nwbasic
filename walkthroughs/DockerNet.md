@@ -27,14 +27,18 @@
 * `ovs-vsctl del-br ovs-br1`
 * `ifconfig eno1 down` && `dhclient eno1`
 
-## (install ping)
-* `docker exec -it container1 apt-get install iputils-ping`
+## (install ping & ifconfig)
+* `docker exec -it container1 apt-get install iputils-ping` or `apt-get install iputils-ping` in the container
+* `apt-get install net-tools`
 
 ## (run without sudo)
 * `sudo groupadd docker`
 * `sudo gpasswd -a $USER docker`
 * `newgrp docker`
 * `docker run hello-world`
+
+## (some docker commands)
+* `docker commit c3f279d17e0a  svendowideit/testimage:version3`
 
 ## (run sudo with passwords)
 * `echo <password> | sudo -S <command>`
